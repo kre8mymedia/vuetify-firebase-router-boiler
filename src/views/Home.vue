@@ -1,10 +1,10 @@
 <template>
   <v-container>
-    <v-layout row wrap>
+    <v-layout row wrap class="mb-3">
       <v-flex xs12 xs6 class="text-xs-center text-sm-right pl-3 pr-2">
         <v-btn large><router-link to="/meetups">Explore Meetups</router-link></v-btn>
       </v-flex>
-      <v-flex xs12 xs6 class="text-xs-center text-sm-left pr-2 pb-3">
+      <v-flex xs12 xs6 class="text-xs-center text-sm-left pr-2">
         <v-btn large><router-link to="/meetup/new">Organize Meetups</router-link></v-btn>
       </v-flex>
     </v-layout>
@@ -27,6 +27,14 @@
             </div>
           </v-carousel-item>
         </v-carousel>
+      </v-flex>
+    </v-layout>
+    <v-layout row wrap class="mt-3">
+      <v-flex xs12 xs6 class="text-xs-center text-sm-right pl-3 pr-2">
+        <v-btn large><router-link to="/meetups">Search Meetups</router-link></v-btn>
+      </v-flex>
+      <v-flex xs12 xs6 class="text-xs-center text-sm-left pr-2">
+        <v-btn large><router-link to="/meetup/new">Promote Meetups</router-link></v-btn>
       </v-flex>
     </v-layout>
   </v-container>
