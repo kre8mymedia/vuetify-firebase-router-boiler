@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-layout row wrap class="mb-3">
+    <v-layout row wrap class="mb-2">
       <v-flex xs12 xs6 class="text-xs-center text-sm-right pl-3 pr-2">
         <v-btn large><router-link to="/meetups">Explore Meetups</router-link></v-btn>
       </v-flex>
@@ -29,7 +29,7 @@
         </v-carousel>
       </v-flex>
     </v-layout>
-    <v-layout row wrap class="mt-3 mb-4">
+    <v-layout row wrap class="mt-2 mb-3">
       <v-flex xs12 xs6 class="text-xs-center text-sm-right pl-3 pr-2">
         <v-btn large><router-link to="/meetups">Search Meetups</router-link></v-btn>
       </v-flex>
