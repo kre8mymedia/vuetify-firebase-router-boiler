@@ -19,7 +19,7 @@
         >
           <v-carousel-item
             v-for="meetup in meetups"
-            :key="meetup"
+            :key="meetup.id"
             :src="meetup.imageUrl"
           >
             <div class="title">
@@ -44,7 +44,6 @@
 // @ is an alias to /src
 
 export default {
-  name: 'home',
   data () {
     return {
       meetups: [
