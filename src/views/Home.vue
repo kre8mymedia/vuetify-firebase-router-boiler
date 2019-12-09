@@ -1,10 +1,10 @@
 <template>
   <v-container>
     <v-layout row wrap>
-      <v-flex xs12 xs6 class="text-xs-center text-sm-right pr-2">
+      <v-flex xs12 xs6 class="text-sm-right mr-2">
         <v-btn large><router-link to="/meetups">Explore Meetups</router-link></v-btn>
       </v-flex>
-      <v-flex xs12 xs6 class="text-xs-center text-sm-left">
+      <v-flex xs12 xs6 class="text-sm-left">
         <v-btn large><router-link to="/meetup/new">Organize Meetups</router-link></v-btn>
       </v-flex>
     </v-layout>
