@@ -17,8 +17,9 @@
             height="200px"
             :src="meetup.imageUrl"
           >
-            <v-card-title class="title">{{meetup.title}}</v-card-title>
           </v-img>
+          
+          <v-card-title>{{meetup.title}}</v-card-title>
 
           <v-card-subtitle class="pb-0">{{meetup.place}}</v-card-subtitle>
 
@@ -28,7 +29,9 @@
             <div>{{meetup.addressEnd}}</div>
           </v-card-text>
 
-          <v-card-actions>
+          <v-card-actions
+            class="d-flex flex-row-reverse"
+          >
             <v-btn
               color="orange"
               text
