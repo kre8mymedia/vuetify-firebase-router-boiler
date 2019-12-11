@@ -32,19 +32,23 @@
           <v-card-actions
             class="d-flex flex-row-reverse"
           >
-            <v-btn
-              color="orange"
-              text
-            >
-              Share
-            </v-btn>
+            <router-link to="/">
+              <v-btn
+                color="orange"
+                text
+              >
+                Share
+              </v-btn>
+            </router-link>
 
-            <v-btn
-              color="orange"
-              text
-            >
-              Explore
-            </v-btn>
+            <router-link to="/meetup/:id">
+              <v-btn
+                color="orange"
+                text
+              >
+                Explore
+              </v-btn>
+            </router-link>
           </v-card-actions>
         </v-card>
 
@@ -70,7 +74,7 @@ export default {
           id: 2,
           imageUrl: 'https://images.pexels.com/photos/89432/pexels-photo-89432.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',  
           title: 'Meetup in London',
-          place: 'Big Ben Tower next to the palace',
+          place: 'Big Ben Tower next to palace',
           addressStart: '737 London Blvd',
           addressEnd: 'London, UK 32830'
         },

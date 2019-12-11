@@ -7,6 +7,7 @@ import HelloWorld from '@/components/HelloWorld'
 // Meetup VUES
 import CreateMeetup from '@/components/Meetup/CreateMeetup'
 import Meetups from '@/components/Meetup/Meetups'
+import Meetup from '@/components/Meetup/Meetup'
 
 // User VUES
 import Profile from '@/components/User/Profile'
@@ -36,6 +37,11 @@ export default new VueRouter ({
       path: '/meetups',
       name: 'Meetups',
       component: Meetups
+    },
+    {
+      path: '/meetups/:id',
+      name: 'Meetup',
+      component: Meetup
     },
     {
       path: '/profile',

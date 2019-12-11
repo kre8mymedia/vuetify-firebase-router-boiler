@@ -16,11 +16,13 @@
           :show-arrows="showArrows"
           :hide-delimiters="hideDelimiters"
           :cycle="cycle"
+          style="cursor: pointer;"
         >
           <v-carousel-item
             v-for="meetup in meetups"
             :key="meetup.id"
             :src="meetup.imageUrl"
+            @click="onLoadMeetup(meetup.id)"
           >
             <div class="title">
               {{ meetup.title }}
@@ -66,6 +68,11 @@ export default {
       cycle: true,
     }
   },
+  methods: {
+    onLoadMeetup(id) {
+      this.$router.push('/meetups/' + id)
+    }
+  }
 }
 </script>
 
