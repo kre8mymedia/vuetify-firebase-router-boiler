@@ -47,11 +47,11 @@ export default {
   data () {
     return {
       meetups: [
-        { imageUrl: 'https://images.pexels.com/photos/1557547/pexels-photo-1557547.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260', id: 'ads;dsajof23n3', title: 'Meetup in New York' },
-        { imageUrl: 'https://images.pexels.com/photos/89432/pexels-photo-89432.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', id: 'ads;dfadsac', title: 'Meetup in London' },
-        { imageUrl: 'https://images.pexels.com/photos/2363/france-landmark-lights-night.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260', id: 'adddass;dsajof23n3', title: 'Meetup in Paris' },
-        { imageUrl: 'https://images.pexels.com/photos/2193300/pexels-photo-2193300.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', id: 'ads;dsajdasdof23n3', title: 'Meetup in Sydney' },
-        { imageUrl: 'https://images.pexels.com/photos/532263/pexels-photo-532263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', id: 'ads;dsassdjof23n3', title: 'Meetup in Rome' }
+        { imageUrl: 'https://images.pexels.com/photos/1557547/pexels-photo-1557547.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260', id: 1, title: 'Meetup in New York' },
+        { imageUrl: 'https://images.pexels.com/photos/89432/pexels-photo-89432.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', id: 2, title: 'Meetup in London' },
+        { imageUrl: 'https://images.pexels.com/photos/2363/france-landmark-lights-night.jpg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260', id: 3, title: 'Meetup in Paris' },
+        { imageUrl: 'https://images.pexels.com/photos/2193300/pexels-photo-2193300.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', id: 4, title: 'Meetup in Sydney' },
+        { imageUrl: 'https://images.pexels.com/photos/532263/pexels-photo-532263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', id: 5, title: 'Meetup in Rome' }
       ],
       colors: [
         'primary',
